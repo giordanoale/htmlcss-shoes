@@ -11,14 +11,27 @@ body{
 /* /general */
 
 /* barra di navigazione */
+header{
+  position: fixed;
+  z-index: 10;
+  margin-top:50px;
+  right: 0;
+}
 
 nav li{
-list-style: none;
-display: inline-block;
+  list-style: none;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
 }
 
 nav li a{
   text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: white;
 }
 
 /* /barra di navigazione */
